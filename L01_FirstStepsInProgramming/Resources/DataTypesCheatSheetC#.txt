@@ -1,0 +1,84 @@
+* -> optional
+
+==================================
+
+Data types - MUST TO KNOW
+
+1. int - integer 
+	- -2, -1, 0, 1, 2 
+	- 32 bit - 8 byte
+
+--------------
+
+2. short 
+	- -2, -1, 0, 1, 2 
+	- 16 bit - 4 byte 
+
+--------------
+
+3. long 
+	- -2, -1, 0, 1, 2 
+	- 64 bit - 16 byte
+	
+--------------
+
+* uint - unsinged int - from 0 to 2 ^ 64
+* ushort - unsinged short - from 0 to 2 ^ 32
+* ulong - unsinged long - from 0 to 2 ^ 128
+
+*BigInteger (optional to know)
+
+** Examples
+	- integer numbers ( цели числа със знак минус )
+	- 1, 2, 3, 333, 4325, -234, 0, 234, -4234234
+
+============================
+
+4. double 
+	- Precision: ~15-17 digits	
+
+--------------
+
+5. float 
+	- Precision: ~6-9 digits 
+
+--------------
+
+6. decimal
+	- Precision: 28-29 digits
+
+ **Examples 
+	- real numbers ( реални числа )
+	- 3,14; 2,5; 5674747,457567685857; 5
+
+=============================
+
+7. string 
+	- ""
+
+--------------
+
+8. char -> character
+	- ''
+
+ ** Examples
+	- 'a', 'b', 'c', ... , 'z'
+	- '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'
+	- '.', '-'
+	- ' ' - whitespace
+	- 'б', 'ц'
+	
+You can check the ASCII Table for characters.
+
+=============================
+
+9. bool -> boolean 
+	- values: true / false, ( 1/0 )
+
+=============================
+
+10. null 
+	- means: 'Empty'
+ 
+ ** Examples
+	- check '0 vs null' the picture with toilet paper 

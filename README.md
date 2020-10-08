@@ -1,2 +1,3 @@
 # VTU-Software-Engineering-First-Course
-Exercises and materials for C#.
+
+Here you can find previous exercises and materials for C#.
