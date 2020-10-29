@@ -1,0 +1,61 @@
+Common
+----
+
+F1 -> help - searching in the microsoft documentation
+
+Ctrl + C -> copy
+Ctrl + V -> paste
+Ctrl + X -> cut
+Ctrl + L -> cut the entire row
+Ctrl + Z -> undo
+Ctrl + Y -> re-undo (redo) (opposite of "Ctrl + Z")
+Ctrl + F -> find
+Ctrl + A -> select all
+Ctrl + S -> save
+Ctrl + Shift + S -> save all
+
+Ctrl + Tab -> goes to next file from opened
+Ctrl + Shift + Tab -> goes to previous file from opened
+
+Tab -> create a tabulation
+Shift + Tab -> remove a tabulation
+
+=====================================================
+
+For Visual Studio
+----------------
+
+Ctrl + F5 -> start the project
+F5 -> start the project in debugging mode
+
+Ctrl + D -> duplicate
+
+Ctrl + O -> open file
+Ctrl + Shift + O -> open project
+Ctrl + N -> create new file
+Ctrl + Shift + N -> create new project
+
+Ctrl + R + R -> rename
+Ctrl + K + D -> format the code
+Ctrl + K + C -> comment all code which is marked or the line where is the cursor
+Ctrl + K + U -> UNcomment all code which is marked or the line where is the 
+
+Shift + Enter -> go to the next line without cutting current line where is the cursor 
+
+=====================================================
+
+For Visual Studio Code
+---------------------
+
+F2 -> rename
+
+! -> snippet for basic html skeleton
+
+Ctrl + Shift + C -> open in intregrated terminal
+Ctrl + P -> search for file by name
+
+Alt + Shift + F -> format the code
+Ctr + K + C -> comment all code which is marked or the line where is the cursor
+Ctr + K + U -> UNcomment all code which is marked or the line where is the 
+
+Ctrl + Enter -> go to the next line without cutting current line where is the cursor 

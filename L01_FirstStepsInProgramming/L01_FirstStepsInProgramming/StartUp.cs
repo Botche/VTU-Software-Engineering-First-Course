@@ -2,23 +2,32 @@
 
 namespace L01_FirstStepsInProgramming
 {
-    // Main class
     class StartUp
     {
-        // Main method where every program starts
         static void Main()
         {
-            // This is one line comment
+            Console.Write("Enter the first number: ");
+            string input = Console.ReadLine();
+            int number = int.Parse(input);
 
-            /* 
-             * Multi line comment
-             */
+            Console.Write("Enter the second number: ");
+            string secondInput = Console.ReadLine();
+            int secondNumber = int.Parse(secondInput);
 
-            // Declaration of variable with name 'number', type 'int' and value '4'
-            int number = 4;
+            int sum = number + secondNumber;
+            Console.WriteLine("The sum is: " + sum);
 
-            // Writing on console - it will print 'Hello World!'
-            Console.WriteLine("Hello World!");
+            int substract = number - secondNumber;
+            Console.WriteLine("The substract is: " + substract);
+
+            int multiply = number * secondNumber;
+            Console.WriteLine("The multiply is: " + multiply);
+
+            double division = number / (double)secondNumber;
+            Console.WriteLine("The division is: " + division);
+
+            int percentage = number % secondNumber;
+            Console.WriteLine("The percentage is: " + percentage);
         }
     }
 }
