@@ -1,7 +1,6 @@
 ﻿namespace P08_CondenseArrayToNumber
 {
     using System;
-    using System.Linq;
 
     public class StartUp
     {
@@ -11,22 +10,22 @@
             //    .Split(" ", StringSplitOptions.RemoveEmptyEntries)
             //    .Select(number => int.Parse(number))
             //    .ToArray();
-            
+
             //for (int index = 0; index < numbers.Length; index++)
             //{
             //    Console.WriteLine(numbers[index]);
             //}
 
-            //Console.WriteLine(SumPlus2(2));
-            //Console.WriteLine(SumPlus2(5));
-            //Console.WriteLine(SumPlus2(10));
-            //Console.WriteLine(SumPlus2(21));
-            //Console.WriteLine(SumPlus2(3));
+            SumTwoNumbers(2, 5);
+            SumTwoNumbers(5, 10);
+            SumTwoNumbers(10, 1);
+            SumTwoNumbers(21, -21);
+            SumTwoNumbers(3, 234);
         }
 
-        public static int SumPlus2(int number)
+        public static void SumTwoNumbers(int firstNumber, int secondNumber)
         {
-            return number + 2;
+            Console.WriteLine(firstNumber + secondNumber);
         }
     }
 }
