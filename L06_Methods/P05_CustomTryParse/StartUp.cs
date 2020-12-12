@@ -13,7 +13,7 @@
             #region TryCatch
             //try
             //{
-            //    string text = "";
+            //    string text = "123";
 
             //    if (string.IsNullOrWhiteSpace(text) == true)
             //    {
@@ -36,11 +36,16 @@
             //{
             //    Console.WriteLine(e.Message);
             //}
+            //finally
+            //{
+            //    Console.WriteLine("The program ended");
+            //}
             #endregion
 
-            IntTryParse("asd", out int number);
+            bool isParsed = IntTryParse("0", out int number);
 
             Console.WriteLine(number);
+            Console.WriteLine(isParsed);
         }
 
         private static bool IntTryParse(string text, out int number)
@@ -54,7 +59,7 @@
 
                 isParsed = true;
             }
-            catch (ArgumentException)
+            catch (FormatException)
             {
                 Console.WriteLine("Parsing was not successful");
             }

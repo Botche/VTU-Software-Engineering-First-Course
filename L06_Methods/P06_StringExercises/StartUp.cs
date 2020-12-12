@@ -6,15 +6,15 @@
     {
         public static void Main()
         {                //0123456789
-            //string text = "The quick brown fox jumps over the lazy dog";
-            //// text.Length -> 43;
+            string text = "The quick brown fox jumps over the lazy dog";
+            // text.Length -> 43;
 
-            //string substring = text.Substring(23);
-            //string secondSubstring = text.Substring(20, 10);
-            //Console.WriteLine(substring);
-            //Console.WriteLine(secondSubstring);
+            string substring = text.Substring(23);
+            string secondSubstring = text.Substring(20, 10);
+            Console.WriteLine(substring);
+            Console.WriteLine(secondSubstring);
 
-            //Console.WriteLine(CountWordsInText(text));
+            Console.WriteLine(CountWordsInText(text));
 
             string text2 = "The quick brown fox jumps over the brown lazy dog";
             string wordToFind = "brown";
