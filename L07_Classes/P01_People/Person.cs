@@ -9,9 +9,9 @@
         private string lastName;
         private int? age;
 
-        public Person(string firstName, string lastName, int age)
+        public Person(string firstName, string lastName, int age) 
             : this(firstName, lastName)
-        {
+        {   
             this.Age = age;
         }
 
