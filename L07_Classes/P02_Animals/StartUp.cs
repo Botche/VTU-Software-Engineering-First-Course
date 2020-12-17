@@ -2,7 +2,6 @@
 {
     using System;
 
-    // LISTS AND ADDITIONAL EXERCISE
     public class StartUp
     {
         public static void Main()
